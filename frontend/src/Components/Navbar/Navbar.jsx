@@ -3,7 +3,7 @@ import './Navbar.css'
 import logo from '../Assets/Perfumes/logo.png'
 import cart_icon from '../Assets/shopping-cart.png'
 
-const Navbar = () => {
+const Navbar = () => {git 
 
     const [menu,setMenu] = useState("Perfumes");
 
@@ -20,7 +20,7 @@ const Navbar = () => {
             </ul>
             <div className="nav-login_cart">
                 <button>Login</button>
-                <img src={cart_icon} alt="" width="40px" />
+                <img src={cart_icon} alt="cart" width="40px" />
                 <div className="nav-cart-count">0</div>
             </div>
         </div>
